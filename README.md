@@ -15,7 +15,9 @@ A modern and user-friendly Weather Application developed using Python. It provid
 - 5-day weather forecast
 - Attractive Light Blue and Light Grey GUI
 - Background image support
+## 📸 Application Screenshot
 
+![Weather App Screenshot](screenshots/weather_app.png)
 ## 🛠️ Technologies Used
 
 - Python
