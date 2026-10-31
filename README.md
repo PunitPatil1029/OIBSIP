@@ -1,31 +1,27 @@
-# 🌤️ Weather App
+# 🌦️ Weather App – Python GUI Application
 
-A modern and user-friendly Weather Application developed using Python. It provides real-time weather information and forecasts for different cities.
+A modern and user-friendly Weather Application developed using Python and CustomTkinter. It provides real-time weather information and forecasts for cities around the world using the OpenWeatherMap API.
 
-## 🚀 Features
+## ✨ Features
 
-- Search weather by city name
-- Real-time weather information
-- Temperature in Celsius and Fahrenheit
-- Feels-like temperature
-- Humidity information
-- Wind speed and atmospheric pressure
-- Sunrise and sunset timings
-- Next 6 hours forecast
-- 5-day weather forecast
-- Attractive Light Blue and Light Grey GUI
-- Background image support
-## 📸 Application Screenshot
+- 🌍 Search weather by city name
+- 🌡️ Display current temperature
+- 🔄 Celsius and Fahrenheit conversion
+- 💧 Humidity information
+- 💨 Wind speed and atmospheric pressure
+- 🌅 Sunrise and sunset timings
+- 🕒 6-hour weather forecast
+- 📅 5-day weather forecast
+- 🎨 Modern GUI with custom background and styling
 
-![Weather App Screenshot](screenshots/weather_app.png)
 ## 🛠️ Technologies Used
 
 - Python
 - CustomTkinter
-- Tkinter
 - OpenWeatherMap API
-- Pillow (PIL)
 - Requests
+- Python-dotenv
+- Pillow
 
 ## 📁 Project Structure
 
@@ -36,14 +32,24 @@ Weather_App/
 ├── gui.py
 ├── weather_api.py
 ├── config.py
+├── .env
+├── .gitignore
+├── README.md
+│
 ├── assets/
 │   └── background.png
-└── README.md
+│
+└── screenshots/
+    └── weather_app.png
 ```
 
-## ⚙️ Installation
+## 📸 Application Screenshot
 
-1. Clone this repository:
+![Weather App Screenshot](screenshots/weather_app.png)
+
+## ⚙️ Installation and Setup
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/PunitPatil1029/OIBSIP.git
@@ -54,10 +60,14 @@ git clone https://github.com/PunitPatil1029/OIBSIP.git
 3. Install required packages:
 
 ```bash
-pip install customtkinter pillow requests
+pip install customtkinter requests pillow python-dotenv
 ```
 
-4. Configure your OpenWeatherMap API key in the appropriate configuration file.
+4. Create a `.env` file in the project folder and add your API key:
+
+```env
+OPENWEATHER_API_KEY=your_api_key_here
+```
 
 5. Run the application:
 
@@ -65,16 +75,21 @@ pip install customtkinter pillow requests
 python main.py
 ```
 
-## 🔑 API Configuration
+## 🔐 API Configuration
 
-Get an API key from [OpenWeatherMap](https://openweathermap.org/api).
+This project uses the OpenWeatherMap API to retrieve real-time weather information.
 
-Keep your API key private. Do not upload it to GitHub.
+Get your API key from [OpenWeatherMap](https://openweathermap.org/api).
 
-## 👨‍💻 Developed With
+Keep your API key private. Do not upload your `.env` file to GitHub.
 
-Python | CustomTkinter | OpenWeatherMap API
+## 👨‍💻 Developer
+
+**Punit Patil**
+
+GitHub: [PunitPatil1029](https://github.com/PunitPatil1029)
 
 ## 📌 Project Status
 
-Completed – Core weather information and forecast features are working.
+Completed – Developed as a Python Internship Project.
+
